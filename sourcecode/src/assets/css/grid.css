@@ -1,0 +1,77 @@
+.grid{
+    width:90%;
+    margin-left:5%;
+    margin-top:2%;
+    border:2px solid #eaeaea;
+    
+}
+.title{
+    width:90%;
+    font-size: 28px;
+    color:#353f50;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-left:5%;
+    margin-top:1%;
+    border-bottom: 1px solid #EAEAEA;
+
+}
+.btn-primary{
+    background-color: #3f9db5;
+    padding: 5px 15px 5px 15px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #3f9db5;
+    border-color: #3f9db5; /*set the color you want here*/
+}
+.grid .row {
+   
+    margin-left:0.01%;
+    margin-top:0.05%;
+    margin-right: 0.01%;
+    border-bottom: 2px solid #eaeaea;
+
+}
+
+.grid .row .header-row {
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color:#878590;
+  padding:10px 1px 10px 10px
+}
+.grid .row .subitem-row {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color:#5e8dc6;
+    padding:10px 1px 10px 10px
+  }
+.grid .row .subitem-row img{
+   width:15px;
+   height: 15px;
+  }
+  
+
+.grid .row .body-row {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color:#878590;
+    padding:10px 1px 10px 10px;
+    border-left:6px solid #EE5F36;
+  }
+
+  .weight-box{
+      width:90px;
+      border:2px solid #A4A8AA;
+      border-radius:5px;
+      padding:5px 5px 5px 5px;
+  }
+
+  #button-sec td{
+      border-top:0px;
+  }
