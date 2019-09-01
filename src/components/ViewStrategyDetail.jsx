@@ -149,13 +149,13 @@ class ViewStrategyDetail extends Component {
                     return (
                       <div className="row" key={index}>
                         <div className="subitem-row col-lg-8 col-sm-7">
-                          <table width="100%">
+                          <table>
                             <tbody>
                               <tr>
-                                <td width="3%">
+                                <td >
                                   <img src={imageUrl} alt="" />
                                 </td>
-                                <td width="97%">
+                                <td>
                                   {Helper.capitalize(item.name)}
                                 </td>
                               </tr>

@@ -75,3 +75,7 @@
   #button-sec td{
       border-top:0px;
   }
+
+  .subitem-row table tr td {
+      padding-left:15px;
+  }
